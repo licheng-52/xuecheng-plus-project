@@ -2,12 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.4</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
+
     <groupId>com.xuecheng</groupId>
     <artifactId>xuecheng-plus-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -40,7 +35,6 @@
 
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -103,7 +97,6 @@
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid-spring-boot-starter.version}</version>
             </dependency>
-
             <!-- mySQL数据库驱动包管理 -->
             <dependency>
                 <groupId>mysql</groupId>
@@ -116,14 +109,12 @@
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatis-plus-boot-starter.version}</version>
             </dependency>
-
             <!-- mybatis plus 代码生成器 -->
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${mybatis-plus-boot-starter.version}</version>
             </dependency>
-
             <!-- 工具类管理 -->
             <dependency>
                 <groupId>commons-lang</groupId>
@@ -138,6 +129,7 @@
             </dependency>
             <!--google推荐的一套工具类库-->
             <dependency>
+
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>25.0-jre</version>
@@ -181,7 +173,6 @@
                 <artifactId>elasticsearch-rest-high-level-client</artifactId>
                 <version>${elasticsearch.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.elasticsearch</groupId>
                 <artifactId>elasticsearch</artifactId>
@@ -215,7 +206,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -227,11 +217,11 @@
                     <target>1.8</target>
                     <!--配置注解预编译-->
                     <annotationProcessorPaths>
-                        <!--                        <path>
-                                                    <groupId>org.mapstruct</groupId>
-                                                    <artifactId>mapstruct-processor</artifactId>
-                                                    <version>${org.mapstruct.version}</version>
-                                                </path>-->
+                        <!-- <path>
+                        <groupId>org.mapstruct</groupId>
+                        <artifactId>mapstruct-processor</artifactId>
+                        <version>${org.mapstruct.version}</version>
+                        </path>-->
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
@@ -240,7 +230,6 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
-
             <!--责处理项目资源文件并拷贝到输出目录，如果有额外的资源文件目录则需要配置-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
