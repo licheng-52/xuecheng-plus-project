@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.xuecheng.base.execption.XueChengPlusException;
 import com.xuecheng.content.mapper.TeachplanMapper;
 import com.xuecheng.content.mapper.TeachplanMediaMapper;
+import com.xuecheng.content.model.dto.BindTeachplanMediaDto;
 import com.xuecheng.content.model.dto.SaveTeachplanDto;
 import com.xuecheng.content.model.dto.TeachplanDto;
 import com.xuecheng.content.model.po.Teachplan;
@@ -14,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -86,11 +88,15 @@ public class TeachplanServiceImpl implements TeachplanService {
     @Transactional
     @Override
     public void orderByTeachplan(String moveType, Long teachplanId) {
+        //根据id获得信息数据SELECT * FROM teachplan WHERE courseId = 117 AND grade = 1  AND orderby < 1 ORDER BY orderby DESC LIMIT 1
         Teachplan teachplan = teachplanMapper.selectById(teachplanId);
-        Integer grade = teachplan.getGrade();
         Long parentid = teachplan.getParentid();
+        Integer grade = teachplan.getGrade();
         Long courseId = teachplan.getCourseId();
         Integer orderby = teachplan.getOrderby();
+
+
+        //根据前端获取的信息判断是上移还是下移
 
         if("moveup".equals(moveType)){
             if(grade == 1){
@@ -132,20 +138,53 @@ public class TeachplanServiceImpl implements TeachplanService {
             }
         }
 
+    }
+
+    @Override
+    public void associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto) {
+        //通过id查数据
+        Long teachplanId = bindTeachplanMediaDto.getTeachplanId();
+
+        Teachplan teachplan = teachplanMapper.selectById(teachplanId);
+
+        if(teachplan == null){
+            XueChengPlusException.cast("教学计划为空");
+        }
+
+        Integer grade = teachplan.getGrade();
+        if(grade != 2){
+            XueChengPlusException.cast("添加视频的级别只能为节");
+        }
+        Long courseId = teachplan.getCourseId();
+        LambdaQueryWrapper<TeachplanMedia> wrapper = new LambdaQueryWrapper<TeachplanMedia>().eq(TeachplanMedia::getCourseId,courseId);
+        teachplanMediaMapper.delete(wrapper);
+
+
+        TeachplanMedia teachplanMedia = new TeachplanMedia();
+        teachplanMedia.setCourseId(courseId);
+        teachplanMedia.setMediaId(bindTeachplanMediaDto.getMediaId());
+        teachplanMedia.setTeachplanId(teachplanId);
+        teachplanMedia.setMediaFilename(bindTeachplanMediaDto.getFileName());
+        teachplanMedia.setCreateDate(LocalDateTime.now());
+        teachplanMediaMapper.insert(teachplanMedia);
+
+
 
     }
 
     private void exchangeOrderby(Teachplan teachplan, Teachplan tmp) {
         if(tmp == null){
-            XueChengPlusException.cast("已经到头了，不能在移了");
-        } else {
-            Integer orderby = teachplan.getOrderby();
-            Integer tmpOrderby = tmp.getOrderby();
-            teachplan.setOrderby(tmpOrderby);
-            tmp.setOrderby(orderby);
-            teachplanMapper.updateById(tmp);
-            teachplanMapper.updateById(teachplan);
+            XueChengPlusException.cast("课程信息不存在");
         }
+        Integer tmpOrderby = tmp.getOrderby();
+        Integer orderby = teachplan.getOrderby();
+        tmp.setOrderby(tmpOrderby);
+        teachplan.setOrderby(orderby);
+        teachplanMapper.updateById(teachplan);
+        teachplanMapper.updateById(tmp);
+
+
+
     }
 
     private int getTeachplanCount(Long courseId, Long parentId) {
