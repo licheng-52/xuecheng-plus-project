@@ -1,0 +1,28 @@
+2023-03-17 19:00:00,204 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.23.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=57265&clusters=DEFAULT, body: {}
+2023-03-17 19:00:00,204 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.23.1&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=57265&clusters=DEFAULT, body: {}
+2023-03-17 19:00:00,269 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][ClientWorker.java:430] - [fixed-127.0.0.1_8848-dev] [polling-resp] config changed. dataId=auth-service-dev.yaml, group=xuecheng-plus-project, tenant=dev
+2023-03-17 19:00:00,269 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][ClientWorker.java:430] - [fixed-127.0.0.1_8848-dev] [polling-resp] config changed. dataId=auth-service-dev.yaml, group=xuecheng-plus-project, tenant=dev
+2023-03-17 19:00:00,269 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][ClientWorker.java:537] - get changedGroupKeys:[auth-service-dev.yaml+xuecheng-plus-project+dev]
+2023-03-17 19:00:00,269 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][ClientWorker.java:537] - get changedGroupKeys:[auth-service-dev.yaml+xuecheng-plus-project+dev]
+2023-03-17 19:00:00,269 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=auth-service-dev.yaml&tenant=dev&group=xuecheng-plus-project, body: null
+2023-03-17 19:00:00,269 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=auth-service-dev.yaml&tenant=dev&group=xuecheng-plus-project, body: null
+2023-03-17 19:00:00,269 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@13fea181]
+2023-03-17 19:00:00,269 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@13fea181]
+2023-03-17 19:00:00,269 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][ClientWorker.java:556] - [fixed-127.0.0.1_8848-dev] [data-received] dataId=auth-service-dev.yaml, group=xuecheng-plus-project, tenant=dev, md5=495f5926063238cf0a88cfc0ed65fada, content=server:
+  servlet:
+    context-path: /auth
+  port: 63070
+spring:
+  datasource:
+    driver-class-name..., type=yaml
+2023-03-17 19:00:00,269 INFO [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][ClientWorker.java:556] - [fixed-127.0.0.1_8848-dev] [data-received] dataId=auth-service-dev.yaml, group=xuecheng-plus-project, tenant=dev, md5=495f5926063238cf0a88cfc0ed65fada, content=server:
+  servlet:
+    context-path: /auth
+  port: 63070
+spring:
+  datasource:
+    driver-class-name..., type=yaml
+2023-03-17 19:00:00,269 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common02ebcbde762502d7ebbb569855f7ee7ddevauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-common93db0af0040302ef8aeb4b6f50616937devfeign-dev.yamlxuecheng-plus-commonf2e128b488a5166704eeea3a9ea4e2ebdevauth-service-dev.yamlxuecheng-plus-project495f5926063238cf0a88cfc0ed65fadadev, tenant=dev}
+2023-03-17 19:00:00,269 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common02ebcbde762502d7ebbb569855f7ee7ddevauth-servicexuecheng-plus-projectdevauth-service.yamlxuecheng-plus-projectdevlogging-dev.yamlxuecheng-plus-common93db0af0040302ef8aeb4b6f50616937devfeign-dev.yamlxuecheng-plus-commonf2e128b488a5166704eeea3a9ea4e2ebdevauth-service-dev.yamlxuecheng-plus-project495f5926063238cf0a88cfc0ed65fadadev, tenant=dev}
+2023-03-17 19:00:00,269 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@13fea181]
+2023-03-17 19:00:00,269 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@13fea181]

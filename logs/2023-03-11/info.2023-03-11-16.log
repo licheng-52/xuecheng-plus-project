@@ -1,0 +1,20 @@
+2023-03-11 22:47:28,279 WARN [Thread-23][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-11 22:47:28,279 WARN [Thread-29][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-11 22:47:28,279 WARN [Thread-23][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-11 22:47:28,279 WARN [Thread-29][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-11 22:47:28,311 WARN [Thread-29][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-11 22:47:28,311 WARN [Thread-29][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-11 22:47:28,311 WARN [Thread-23][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-11 22:47:28,311 WARN [Thread-23][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-11 22:47:28,845 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-11 22:47:28,845 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-11 22:47:28,853 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-03-11 22:47:28,853 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-03-11 22:47:28,861 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-03-11 22:47:28,861 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-03-11 22:47:29,878 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@634b11b0 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5600a5da
+2023-03-11 22:47:29,878 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@634b11b0 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5600a5da
+2023-03-11 22:47:37,859 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-03-11 22:47:37,859 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2023-03-11 22:47:37,859 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-11 22:47:37,859 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'

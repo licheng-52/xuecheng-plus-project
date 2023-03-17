@@ -1,0 +1,171 @@
+2023-03-14 17:12:40,017 ERROR [pool-90-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:12:45,039 ERROR [pool-91-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:12:50,030 ERROR [pool-92-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:12:55,029 ERROR [pool-93-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:00,031 ERROR [pool-94-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:05,039 ERROR [pool-95-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:10,031 ERROR [pool-96-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:15,028 ERROR [pool-97-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:20,026 ERROR [pool-98-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:25,032 ERROR [pool-99-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:30,022 ERROR [pool-100-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:35,088 ERROR [pool-101-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:40,023 ERROR [pool-102-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:45,059 ERROR [pool-103-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:50,023 ERROR [pool-104-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:13:55,023 ERROR [pool-105-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:00,034 ERROR [pool-106-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:05,024 ERROR [pool-107-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:10,023 ERROR [pool-108-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:15,018 ERROR [pool-109-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:20,024 ERROR [pool-110-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:25,015 ERROR [pool-111-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:30,014 ERROR [pool-112-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:35,024 ERROR [pool-113-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:40,014 ERROR [pool-114-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:45,023 ERROR [pool-115-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:50,021 ERROR [pool-116-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:14:55,012 ERROR [pool-117-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:00,017 ERROR [pool-118-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:05,045 ERROR [pool-119-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:10,019 ERROR [pool-120-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:15,013 ERROR [pool-121-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:20,022 ERROR [pool-122-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:25,013 ERROR [pool-123-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:30,024 ERROR [pool-124-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:35,023 ERROR [pool-125-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:15:40,024 ERROR [pool-126-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:文件不存在null
+2023-03-14 17:16:20,631 ERROR [pool-2-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:16:25,022 ERROR [pool-3-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:16:30,036 ERROR [pool-4-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:16:35,016 ERROR [pool-5-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:16:40,013 ERROR [pool-6-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:16:45,015 ERROR [pool-7-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:16:50,017 ERROR [pool-8-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:16:55,019 ERROR [pool-9-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:00,035 ERROR [pool-10-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:05,015 ERROR [pool-11-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:10,076 ERROR [pool-12-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:15,014 ERROR [pool-13-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:20,024 ERROR [pool-14-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:25,016 ERROR [pool-15-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:30,015 ERROR [pool-16-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:35,015 ERROR [pool-17-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:40,013 ERROR [pool-18-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:45,017 ERROR [pool-19-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:50,013 ERROR [pool-20-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:17:55,012 ERROR [pool-21-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:18:00,026 ERROR [pool-22-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:18:05,024 ERROR [pool-23-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:25,272 ERROR [pool-2-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:30,015 ERROR [pool-3-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:35,015 ERROR [pool-4-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:40,013 ERROR [pool-5-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:45,014 ERROR [pool-6-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:45,014 ERROR [pool-6-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:50,013 ERROR [pool-7-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:50,013 ERROR [pool-7-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:55,014 ERROR [pool-8-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:54:55,014 ERROR [pool-8-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:00,039 ERROR [pool-9-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:00,040 ERROR [pool-9-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:05,014 ERROR [pool-10-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:05,014 ERROR [pool-10-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:10,034 ERROR [pool-11-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:10,034 ERROR [pool-11-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:15,014 ERROR [pool-12-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:15,014 ERROR [pool-12-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:20,016 ERROR [pool-13-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:20,016 ERROR [pool-13-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:25,025 ERROR [pool-14-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:25,026 ERROR [pool-14-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:30,032 ERROR [pool-15-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:30,032 ERROR [pool-15-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:35,019 ERROR [pool-16-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:35,019 ERROR [pool-16-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:40,025 ERROR [pool-17-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:40,026 ERROR [pool-17-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:45,013 ERROR [pool-18-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:45,013 ERROR [pool-18-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:50,015 ERROR [pool-19-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:50,015 ERROR [pool-19-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:55,041 ERROR [pool-20-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:55:55,041 ERROR [pool-20-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:00,121 ERROR [pool-21-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:00,121 ERROR [pool-21-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:05,024 ERROR [pool-22-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:05,024 ERROR [pool-22-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:10,013 ERROR [pool-23-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:10,013 ERROR [pool-23-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:15,014 ERROR [pool-24-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:15,014 ERROR [pool-24-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:20,014 ERROR [pool-25-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:20,014 ERROR [pool-25-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:25,028 ERROR [pool-26-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:25,029 ERROR [pool-26-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:30,014 ERROR [pool-27-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:30,014 ERROR [pool-27-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:35,026 ERROR [pool-28-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:35,026 ERROR [pool-28-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:40,027 ERROR [pool-29-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:40,027 ERROR [pool-29-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:45,020 ERROR [pool-30-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:45,020 ERROR [pool-30-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:50,026 ERROR [pool-31-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:50,026 ERROR [pool-31-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:55,025 ERROR [pool-32-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:56:55,025 ERROR [pool-32-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:00,026 ERROR [pool-33-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:00,027 ERROR [pool-33-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:05,013 ERROR [pool-34-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:05,015 ERROR [pool-34-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:10,025 ERROR [pool-35-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:10,025 ERROR [pool-35-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:15,025 ERROR [pool-36-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:15,025 ERROR [pool-36-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:20,023 ERROR [pool-37-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:20,023 ERROR [pool-37-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:25,016 ERROR [pool-38-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:25,016 ERROR [pool-38-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:30,016 ERROR [pool-39-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:30,016 ERROR [pool-39-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:35,030 ERROR [pool-40-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:35,031 ERROR [pool-40-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:40,026 ERROR [pool-41-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:40,027 ERROR [pool-41-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:45,015 ERROR [pool-42-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:45,015 ERROR [pool-42-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:50,023 ERROR [pool-43-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:50,024 ERROR [pool-43-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:55,314 ERROR [pool-44-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:57:55,314 ERROR [pool-44-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:00,187 ERROR [pool-45-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:00,189 ERROR [pool-45-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:05,016 ERROR [pool-46-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:05,016 ERROR [pool-46-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:10,025 ERROR [pool-47-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:10,025 ERROR [pool-47-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:15,015 ERROR [pool-48-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:15,015 ERROR [pool-48-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:20,015 ERROR [pool-49-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:20,015 ERROR [pool-49-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:25,046 ERROR [pool-50-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:25,047 ERROR [pool-50-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:30,014 ERROR [pool-51-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:30,014 ERROR [pool-51-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:35,024 ERROR [pool-52-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:35,024 ERROR [pool-52-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:40,015 ERROR [pool-53-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:40,015 ERROR [pool-53-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:45,013 ERROR [pool-54-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:45,013 ERROR [pool-54-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:50,026 ERROR [pool-55-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:50,026 ERROR [pool-55-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:55,014 ERROR [pool-56-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:58:55,014 ERROR [pool-56-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:59:00,017 ERROR [pool-57-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:59:00,017 ERROR [pool-57-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:59:05,014 ERROR [pool-58-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:59:05,014 ERROR [pool-58-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:59:55,162 ERROR [pool-2-thread-2][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.
+2023-03-14 17:59:55,162 ERROR [pool-2-thread-1][VideoTask.java:98] - 处理视频前下载原始文件:null,出错:object name must not be null.

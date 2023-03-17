@@ -1,0 +1,22 @@
+2023-03-17 13:00:01,781 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63040, ip='10.225.195.147', weight=1.0, serviceName='xuecheng-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-03-17 13:00:01,781 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63040, ip='10.225.195.147', weight=1.0, serviceName='xuecheng-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-03-17 13:00:01,785 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40content-api&namespaceId=dev&port=63040&clusterName=DEFAULT&ip=10.225.195.147, body: {}
+2023-03-17 13:00:01,785 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://127.0.0.1:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40content-api&namespaceId=dev&port=63040&clusterName=DEFAULT&ip=10.225.195.147, body: {}
+2023-03-17 13:00:01,796 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.23.1&serviceName=xuecheng-plus-project%40%40content-api&udpPort=63567&clusters=DEFAULT, body: {}
+2023-03-17 13:00:01,796 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.23.1&serviceName=xuecheng-plus-project%40%40content-api&udpPort=63567&clusters=DEFAULT, body: {}
+2023-03-17 13:00:02,136 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-17 13:00:02,136 WARN [Thread-27][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-17 13:00:02,136 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-17 13:00:02,136 WARN [Thread-27][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-17 13:00:02,136 WARN [Thread-27][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-17 13:00:02,136 WARN [Thread-27][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-17 13:00:02,136 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-17 13:00:02,136 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-17 13:00:02,186 WARN [Thread-43][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-17 13:00:02,186 WARN [Thread-43][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-17 13:00:02,186 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-17 13:00:02,186 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-17 13:00:02,186 WARN [Thread-43][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-17 13:00:02,186 WARN [Thread-43][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-17 13:00:02,187 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-17 13:00:02,187 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
