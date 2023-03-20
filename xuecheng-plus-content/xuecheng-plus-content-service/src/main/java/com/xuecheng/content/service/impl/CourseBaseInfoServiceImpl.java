@@ -2,7 +2,7 @@ package com.xuecheng.content.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.xuecheng.base.execption.XueChengPlusException;
+import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.content.mapper.*;
@@ -47,8 +47,11 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     @Autowired
     private TeachplanMapper teachplanMapper;
 
+    @Autowired
+    private CoursePublishMapper coursePublishMapper;
+
     @Override
-    public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams,
+    public PageResult<CourseBase> queryCourseBaseList(Long companyId,PageParams pageParams,
                                                       QueryCourseParamsDto queryCourseParamsDto) {
         //构建查询条件对象
         LambdaQueryWrapper<CourseBase> queryWrapper = new LambdaQueryWrapper<>();
@@ -61,6 +64,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         //构建查询条件，根据课程发布状态查询
         queryWrapper.eq(StringUtils.isNotEmpty(queryCourseParamsDto.getPublishStatus()),
                 CourseBase::getAuditStatus,queryCourseParamsDto.getPublishStatus());
+        queryWrapper.eq(CourseBase::getCompanyId,companyId);
         //分页对象
         Page<CourseBase> page = new Page<>(pageParams.getPageNo(),
                 pageParams.getPageSize());
@@ -215,6 +219,8 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         //删除课程基本信息
         courseBaseMapper.deleteById(courseId);
     }
+
+
 
     private boolean saveCourseMarket(CourseMarket courseMarket) {
 

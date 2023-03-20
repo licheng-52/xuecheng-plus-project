@@ -1,13 +1,12 @@
 package com.xuecheng.content.model.dto;
 
-import com.xuecheng.base.execption.ValidationGroups;
+import com.xuecheng.base.exception.ValidationGroups;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
-import java.math.BigDecimal;
 
 /**
  * @author Mr.M

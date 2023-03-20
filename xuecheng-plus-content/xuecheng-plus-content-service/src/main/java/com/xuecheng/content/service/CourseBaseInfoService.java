@@ -7,6 +7,7 @@ import com.xuecheng.content.model.dto.CourseBaseInfoDto;
 import com.xuecheng.content.model.dto.EditCourseDto;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
+import com.xuecheng.content.model.po.CoursePublish;
 
 /**
  * @author beamshaha
@@ -14,7 +15,7 @@ import com.xuecheng.content.model.po.CourseBase;
  */
 public interface CourseBaseInfoService {
 
-    public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto);
+    public PageResult<CourseBase> queryCourseBaseList(Long companyId,PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto);
 
     CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto dto);
 
@@ -23,4 +24,6 @@ public interface CourseBaseInfoService {
     CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto editCourseDto);
 
     void deleteCourse(Long companyId, Long courseId);
+
+
 }

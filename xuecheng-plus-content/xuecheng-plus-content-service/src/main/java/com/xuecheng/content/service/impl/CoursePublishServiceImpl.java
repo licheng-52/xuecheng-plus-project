@@ -1,8 +1,8 @@
 package com.xuecheng.content.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.xuecheng.base.execption.CommonError;
-import com.xuecheng.base.execption.XueChengPlusException;
+import com.xuecheng.base.exception.CommonError;
+import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.content.config.MultipartSupportConfig;
 import com.xuecheng.content.feignclient.MediaServiceClient;
 import com.xuecheng.content.feignclient.SearchServiceClient;
@@ -99,7 +99,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
             XueChengPlusException.cast("没有上传图片不允许提交审核。");
         }
 
-        if(courseBase.getCompanyId().equals(companyId)){
+        if(!courseBase.getCompanyId().equals(companyId)){
             XueChengPlusException.cast("本机构只允许提交本机构的课程。");
         }
 
@@ -248,6 +248,13 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         return add;
 
     }
+
+    @Override
+    public CoursePublish getCoursePublish(Long courseId){
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        return coursePublish ;
+    }
+
 
 
     /**

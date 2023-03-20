@@ -3,9 +3,11 @@ package com.xuecheng.ucenter.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.xuecheng.ucenter.mapper.XcMenuMapper;
 import com.xuecheng.ucenter.mapper.XcUserMapper;
 import com.xuecheng.ucenter.model.dto.AuthParamsDto;
 import com.xuecheng.ucenter.model.dto.XcUserExt;
+import com.xuecheng.ucenter.model.po.XcMenu;
 import com.xuecheng.ucenter.model.po.XcUser;
 import com.xuecheng.ucenter.service.AuthService;
 import javafx.application.Application;
@@ -18,6 +20,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Service
 public class UserServiceImpl implements UserDetailsService {
 
@@ -27,7 +32,10 @@ public class UserServiceImpl implements UserDetailsService {
     ApplicationContext applicationContext;
 
     @Autowired
-    XcUserMapper xcUserMapper;
+    private XcUserMapper xcUserMapper;
+
+    @Autowired
+    private XcMenuMapper xcMenuMapper;
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
@@ -59,7 +67,17 @@ public class UserServiceImpl implements UserDetailsService {
      */
     private UserDetails getUserPrincipal(XcUserExt user) {
 
-        String[] authorities = {"p1"};
+        List<XcMenu> xcMenus = xcMenuMapper.selectPermissionByUserId(user.getId());
+        List<String> permissions = new ArrayList<>();
+        if(xcMenus.size() <= 0){
+            permissions.add("p1");
+        } else {
+            xcMenus.forEach(m ->{
+                permissions.add(m.getCode());
+            });
+        }
+        user.setPermissions(permissions);
+        String[] authorities = permissions.toArray(new String[0]);
         String password = user.getPassword();
         user.setPassword(null);
         String userString = JSON.toJSONString(user);

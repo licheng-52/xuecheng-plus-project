@@ -1,0 +1,294 @@
+2023-02-26 12:04:06,698 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-02-26 12:04:06,698 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-02-26 12:04:08,356 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-26 12:04:08,356 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-26 12:04:08,837 INFO [main][GenericScope.java:295] - BeanFactory id=d724963c-c089-3a3f-9a0d-c45626d5f9e0
+2023-02-26 12:04:08,837 INFO [main][GenericScope.java:295] - BeanFactory id=d724963c-c089-3a3f-9a0d-c45626d5f9e0
+2023-02-26 12:04:10,037 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-02-26 12:04:10,037 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-02-26 12:04:10,289 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4f26425b'
+2023-02-26 12:04:10,289 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4f26425b'
+2023-02-26 12:04:10,298 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-02-26 12:04:10,298 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-02-26 12:04:12,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.insert
+2023-02-26 12:04:12,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.insert
+2023-02-26 12:04:12,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.delete
+2023-02-26 12:04:12,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.delete
+2023-02-26 12:04:12,521 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteByMap
+2023-02-26 12:04:12,521 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteByMap
+2023-02-26 12:04:12,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteById
+2023-02-26 12:04:12,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteById
+2023-02-26 12:04:12,617 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteBatchIds
+2023-02-26 12:04:12,617 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.deleteBatchIds
+2023-02-26 12:04:12,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.update
+2023-02-26 12:04:12,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.update
+2023-02-26 12:04:12,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.updateById
+2023-02-26 12:04:12,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.updateById
+2023-02-26 12:04:12,639 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectById
+2023-02-26 12:04:12,639 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectById
+2023-02-26 12:04:12,642 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectBatchIds
+2023-02-26 12:04:12,642 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectBatchIds
+2023-02-26 12:04:12,646 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectByMap
+2023-02-26 12:04:12,646 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectByMap
+2023-02-26 12:04:12,651 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectOne
+2023-02-26 12:04:12,651 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectOne
+2023-02-26 12:04:12,656 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectCount
+2023-02-26 12:04:12,656 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectCount
+2023-02-26 12:04:12,668 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMaps
+2023-02-26 12:04:12,668 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMaps
+2023-02-26 12:04:12,675 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMapsPage
+2023-02-26 12:04:12,675 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectMapsPage
+2023-02-26 12:04:12,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectObjs
+2023-02-26 12:04:12,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectObjs
+2023-02-26 12:04:12,687 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectList
+2023-02-26 12:04:12,687 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectList
+2023-02-26 12:04:12,692 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectPage
+2023-02-26 12:04:12,692 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersMapper.selectPage
+2023-02-26 12:04:12,740 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.insert
+2023-02-26 12:04:12,740 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.insert
+2023-02-26 12:04:12,744 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.delete
+2023-02-26 12:04:12,744 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.delete
+2023-02-26 12:04:12,750 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteByMap
+2023-02-26 12:04:12,750 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteByMap
+2023-02-26 12:04:12,754 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteById
+2023-02-26 12:04:12,754 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteById
+2023-02-26 12:04:12,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteBatchIds
+2023-02-26 12:04:12,758 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.deleteBatchIds
+2023-02-26 12:04:12,765 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.update
+2023-02-26 12:04:12,765 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.update
+2023-02-26 12:04:12,771 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.updateById
+2023-02-26 12:04:12,771 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.updateById
+2023-02-26 12:04:12,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectById
+2023-02-26 12:04:12,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectById
+2023-02-26 12:04:12,777 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectBatchIds
+2023-02-26 12:04:12,777 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectBatchIds
+2023-02-26 12:04:12,781 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectByMap
+2023-02-26 12:04:12,781 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectByMap
+2023-02-26 12:04:12,786 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectOne
+2023-02-26 12:04:12,786 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectOne
+2023-02-26 12:04:12,792 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectCount
+2023-02-26 12:04:12,792 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectCount
+2023-02-26 12:04:12,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMaps
+2023-02-26 12:04:12,807 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMapsPage
+2023-02-26 12:04:12,812 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectObjs
+2023-02-26 12:04:12,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMaps
+2023-02-26 12:04:12,807 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectMapsPage
+2023-02-26 12:04:12,812 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectObjs
+2023-02-26 12:04:12,823 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectList
+2023-02-26 12:04:12,823 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectList
+2023-02-26 12:04:12,834 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectPage
+2023-02-26 12:04:12,834 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcOrdersGoodsMapper.selectPage
+2023-02-26 12:04:12,890 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.insert
+2023-02-26 12:04:12,890 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.insert
+2023-02-26 12:04:12,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.delete
+2023-02-26 12:04:12,898 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.delete
+2023-02-26 12:04:12,907 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.deleteByMap
+2023-02-26 12:04:12,907 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.deleteByMap
+2023-02-26 12:04:12,910 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.deleteById
+2023-02-26 12:04:12,910 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.deleteById
+2023-02-26 12:04:12,915 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.deleteBatchIds
+2023-02-26 12:04:12,915 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.deleteBatchIds
+2023-02-26 12:04:12,920 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.update
+2023-02-26 12:04:12,920 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.update
+2023-02-26 12:04:12,926 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.updateById
+2023-02-26 12:04:12,926 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.updateById
+2023-02-26 12:04:12,928 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectById
+2023-02-26 12:04:12,928 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectById
+2023-02-26 12:04:12,932 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectBatchIds
+2023-02-26 12:04:12,932 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectBatchIds
+2023-02-26 12:04:12,935 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectByMap
+2023-02-26 12:04:12,935 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectByMap
+2023-02-26 12:04:12,940 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectOne
+2023-02-26 12:04:12,940 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectOne
+2023-02-26 12:04:12,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectCount
+2023-02-26 12:04:12,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectCount
+2023-02-26 12:04:12,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectMaps
+2023-02-26 12:04:12,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectMaps
+2023-02-26 12:04:12,986 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectMapsPage
+2023-02-26 12:04:12,986 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectMapsPage
+2023-02-26 12:04:12,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectObjs
+2023-02-26 12:04:12,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectObjs
+2023-02-26 12:04:13,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectList
+2023-02-26 12:04:13,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectList
+2023-02-26 12:04:13,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectPage
+2023-02-26 12:04:13,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayRecordMapper.selectPage
+2023-02-26 12:04:13,294 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-02-26 12:04:13,296 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-26 12:04:13,294 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-02-26 12:04:13,296 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-26 12:04:13,314 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-02-26 12:04:13,315 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-26 12:04:13,314 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-02-26 12:04:13,315 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-26 12:04:17,202 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-02-26 12:04:17,202 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-02-26 12:04:19,870 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-02-26 12:04:19,870 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-02-26 12:04:19,890 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-02-26 12:04:19,890 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-02-26 12:04:19,892 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-02-26 12:04:19,892 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-02-26 12:04:19,894 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-02-26 12:04:19,894 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-02-26 12:04:19,900 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-02-26 12:04:19,900 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-02-26 12:04:19,901 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-02-26 12:04:19,901 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-02-26 12:04:19,919 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-02-26 12:04:19,919 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-02-26 12:04:19,920 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-02-26 12:04:19,920 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-02-26 12:04:19,921 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-02-26 12:04:19,921 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-02-26 12:04:19,924 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-02-26 12:04:19,924 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-02-26 12:04:19,934 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-02-26 12:04:19,934 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-02-26 12:04:19,935 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-02-26 12:04:19,935 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-02-26 12:04:19,935 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-02-26 12:04:19,935 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-02-26 12:04:19,936 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-02-26 12:04:19,936 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-02-26 12:04:19,936 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-02-26 12:04:19,936 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-02-26 12:04:19,937 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-02-26 12:04:19,937 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-02-26 12:04:20,750 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-02-26 12:04:20,750 WARN [main][FreeMarkerAutoConfiguration.java:65] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-02-26 12:04:25,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.insert
+2023-02-26 12:04:25,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.delete
+2023-02-26 12:04:25,480 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.insert
+2023-02-26 12:04:25,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.delete
+2023-02-26 12:04:25,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteByMap
+2023-02-26 12:04:25,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteByMap
+2023-02-26 12:04:25,523 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteById
+2023-02-26 12:04:25,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteBatchIds
+2023-02-26 12:04:25,533 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.update
+2023-02-26 12:04:25,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.updateById
+2023-02-26 12:04:25,540 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectById
+2023-02-26 12:04:25,545 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectBatchIds
+2023-02-26 12:04:25,549 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectByMap
+2023-02-26 12:04:25,554 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectOne
+2023-02-26 12:04:25,573 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectCount
+2023-02-26 12:04:25,583 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMaps
+2023-02-26 12:04:25,523 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteById
+2023-02-26 12:04:25,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.deleteBatchIds
+2023-02-26 12:04:25,533 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.update
+2023-02-26 12:04:25,589 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMapsPage
+2023-02-26 12:04:25,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectObjs
+2023-02-26 12:04:25,606 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectList
+2023-02-26 12:04:25,611 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectPage
+2023-02-26 12:04:25,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.updateById
+2023-02-26 12:04:25,540 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectById
+2023-02-26 12:04:25,545 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectBatchIds
+2023-02-26 12:04:25,549 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectByMap
+2023-02-26 12:04:25,554 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectOne
+2023-02-26 12:04:25,573 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectCount
+2023-02-26 12:04:25,583 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMaps
+2023-02-26 12:04:25,589 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectMapsPage
+2023-02-26 12:04:25,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectObjs
+2023-02-26 12:04:25,606 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectList
+2023-02-26 12:04:25,611 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.orders.mapper.XcPayOrdersMapper.selectPage
+2023-02-26 12:04:25,929 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-02-26 12:04:25,931 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-02-26 12:04:25,929 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-02-26 12:04:25,931 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-02-26 12:04:25,964 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-02-26 12:04:25,964 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-02-26 12:04:26,077 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-26 12:04:26,077 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-26 12:04:26,098 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-26 12:04:26,121 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-26 12:04:26,098 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-26 12:04:26,121 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-26 12:04:26,158 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-02-26 12:04:26,163 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.2.207&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=53061&clusters=DEFAULT, body: {}
+2023-02-26 12:04:26,158 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-02-26 12:04:26,163 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.2.207&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=53061&clusters=DEFAULT, body: {}
+2023-02-26 12:04:26,691 INFO [main][StartupInfoLogger.java:61] - Started AliPayTest in 29.771 seconds (JVM running for 34.279)
+2023-02-26 12:04:26,691 INFO [main][StartupInfoLogger.java:61] - Started AliPayTest in 29.771 seconds (JVM running for 34.279)
+2023-02-26 12:04:26,734 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] orders-service.yaml+xuecheng-plus-project+dev402
+2023-02-26 12:04:26,734 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] orders-service.yaml+xuecheng-plus-project+dev402
+2023-02-26 12:04:26,745 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=orders-service.yaml, group=xuecheng-plus-project, cnt=1
+2023-02-26 12:04:26,745 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=orders-service.yaml, group=xuecheng-plus-project, cnt=1
+2023-02-26 12:04:26,753 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] orders-service+xuecheng-plus-project+dev402
+2023-02-26 12:04:26,753 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] orders-service+xuecheng-plus-project+dev402
+2023-02-26 12:04:26,754 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=orders-service, group=xuecheng-plus-project, cnt=1
+2023-02-26 12:04:26,754 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=orders-service, group=xuecheng-plus-project, cnt=1
+2023-02-26 12:04:26,791 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] orders-service-dev.yaml+xuecheng-plus-project+dev402
+2023-02-26 12:04:26,792 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=orders-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-02-26 12:04:26,794 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev402
+2023-02-26 12:04:26,794 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-02-26 12:04:26,791 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] orders-service-dev.yaml+xuecheng-plus-project+dev402
+2023-02-26 12:04:26,792 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=orders-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-02-26 12:04:26,794 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev402
+2023-02-26 12:04:26,794 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-02-26 12:04:26,801 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdev402orders-service-dev.yamlxuecheng-plus-projectbe4e386a24fb1066a75b897c9a1d6aeedev402orders-service.yamlxuecheng-plus-projectdev402, tenant=dev402}
+2023-02-26 12:04:26,803 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@797db544]
+2023-02-26 12:04:26,801 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdev402orders-service-dev.yamlxuecheng-plus-projectbe4e386a24fb1066a75b897c9a1d6aeedev402orders-service.yamlxuecheng-plus-projectdev402, tenant=dev402}
+2023-02-26 12:04:26,803 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@797db544]
+2023-02-26 12:04:26,819 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdev402orders-service-dev.yamlxuecheng-plus-projectbe4e386a24fb1066a75b897c9a1d6aeedev402orders-service.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402, tenant=dev402}
+2023-02-26 12:04:26,819 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@797db544]
+2023-02-26 12:04:26,819 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdev402orders-service-dev.yamlxuecheng-plus-projectbe4e386a24fb1066a75b897c9a1d6aeedev402orders-service.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402, tenant=dev402}
+2023-02-26 12:04:26,819 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@797db544]
+2023-02-26 12:04:26,827 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdev402orders-service-dev.yamlxuecheng-plus-projectbe4e386a24fb1066a75b897c9a1d6aeedev402orders-service.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402, tenant=dev402}
+2023-02-26 12:04:26,828 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@797db544]
+2023-02-26 12:04:26,827 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdev402orders-service-dev.yamlxuecheng-plus-projectbe4e386a24fb1066a75b897c9a1d6aeedev402orders-service.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402, tenant=dev402}
+2023-02-26 12:04:26,828 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@797db544]
+2023-02-26 12:04:27,641 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.2.207&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=53061&clusters=DEFAULT, body: {}
+2023-02-26 12:04:27,641 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.2.207&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=53061&clusters=DEFAULT, body: {}
+2023-02-26 12:04:27,747 DEBUG [main][AlipayLogger.java:202] - 2023-02-26 12:04:27^_^https://openapi.alipaydev.com/gateway.do?alipay_sdk=alipay-sdk-java-3.7.73.ALL&app_id=2016101900725017&biz_content=%7B%22out_trade_no%22%3A%221629685380690747392%22%7D&charset=UTF-8&format=json&method=alipay.trade.query&sign=aauWtVAq%2B6gE7C%2FnGv1k9yqTEpPs0sF6bgyJiayIM4B0DFHRD7%2BwbYuzu21WTlyJP53gEehWUirq3DXHMwCuW01KauVTM2EnIER146tCrJ3e%2FRw3sT77Q%2BNKLN5iNUlOpTRArxBsgYffSPvE1Ns6mvEu2QW%2Bu7uSryRuN604Tgp1dFkn5Ju0mz2UdeyC%2BRE%2FaTQMNmWpPxUpkHlbmTU2DrHtVRe2E6P4F%2B2FqX3ne%2BNNcqEed0Fz6T%2B1n53yBu6AqRknXBmE3lWyJtGYTieeptHBSPYPc0JDZJljpI%2B45tJfdAo%2F9Foeq8Lpfkls2qUd8a7PgnInvI8NcB9uDXNmBQ%3D%3D&sign_type=RSA2&timestamp=2023-02-26+12%3A04%3A27&version=1.0
+2023-02-26 12:04:27,747 DEBUG [main][AlipayLogger.java:202] - 2023-02-26 12:04:27^_^https://openapi.alipaydev.com/gateway.do?alipay_sdk=alipay-sdk-java-3.7.73.ALL&app_id=2016101900725017&biz_content=%7B%22out_trade_no%22%3A%221629685380690747392%22%7D&charset=UTF-8&format=json&method=alipay.trade.query&sign=aauWtVAq%2B6gE7C%2FnGv1k9yqTEpPs0sF6bgyJiayIM4B0DFHRD7%2BwbYuzu21WTlyJP53gEehWUirq3DXHMwCuW01KauVTM2EnIER146tCrJ3e%2FRw3sT77Q%2BNKLN5iNUlOpTRArxBsgYffSPvE1Ns6mvEu2QW%2Bu7uSryRuN604Tgp1dFkn5Ju0mz2UdeyC%2BRE%2FaTQMNmWpPxUpkHlbmTU2DrHtVRe2E6P4F%2B2FqX3ne%2BNNcqEed0Fz6T%2B1n53yBu6AqRknXBmE3lWyJtGYTieeptHBSPYPc0JDZJljpI%2B45tJfdAo%2F9Foeq8Lpfkls2qUd8a7PgnInvI8NcB9uDXNmBQ%3D%3D&sign_type=RSA2&timestamp=2023-02-26+12%3A04%3A27&version=1.0
+2023-02-26 12:04:28,657 INFO [main][AlipayLogger.java:366] - Summary^_^10000^_^null^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.query&sign=aauWtVAq+6gE7C/nGv1k9yqTEpPs0sF6bgyJiayIM4B0DFHRD7+wbYuzu21WTlyJP53gEehWUirq3DXHMwCuW01KauVTM2EnIER146tCrJ3e/Rw3sT77Q+NKLN5iNUlOpTRArxBsgYffSPvE1Ns6mvEu2QW+u7uSryRuN604Tgp1dFkn5Ju0mz2UdeyC+RE/aTQMNmWpPxUpkHlbmTU2DrHtVRe2E6P4F+2FqX3ne+NNcqEed0Fz6T+1n53yBu6AqRknXBmE3lWyJtGYTieeptHBSPYPc0JDZJljpI+45tJfdAo/9Foeq8Lpfkls2qUd8a7PgnInvI8NcB9uDXNmBQ==&version=1.0&app_id=2016101900725017&sign_type=RSA2&timestamp=2023-02-26 12:04:27^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-3.7.73.ALL&format=json^_^ApplicationParams:biz_content={"out_trade_no":"1629685380690747392"}^_^67ms,880ms,29ms
+2023-02-26 12:04:28,657 INFO [main][AlipayLogger.java:366] - Summary^_^10000^_^null^_^ProtocalMustParams:charset=UTF-8&method=alipay.trade.query&sign=aauWtVAq+6gE7C/nGv1k9yqTEpPs0sF6bgyJiayIM4B0DFHRD7+wbYuzu21WTlyJP53gEehWUirq3DXHMwCuW01KauVTM2EnIER146tCrJ3e/Rw3sT77Q+NKLN5iNUlOpTRArxBsgYffSPvE1Ns6mvEu2QW+u7uSryRuN604Tgp1dFkn5Ju0mz2UdeyC+RE/aTQMNmWpPxUpkHlbmTU2DrHtVRe2E6P4F+2FqX3ne+NNcqEed0Fz6T+1n53yBu6AqRknXBmE3lWyJtGYTieeptHBSPYPc0JDZJljpI+45tJfdAo/9Foeq8Lpfkls2qUd8a7PgnInvI8NcB9uDXNmBQ==&version=1.0&app_id=2016101900725017&sign_type=RSA2&timestamp=2023-02-26 12:04:27^_^ProtocalOptParams:alipay_sdk=alipay-sdk-java-3.7.73.ALL&format=json^_^ApplicationParams:biz_content={"out_trade_no":"1629685380690747392"}^_^67ms,880ms,29ms
+2023-02-26 12:04:56,411 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-26 12:04:56,411 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-26 12:04:56,416 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-26 12:04:56,413 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.2.207&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=53061&clusters=DEFAULT, body: {}
+2023-02-26 12:04:56,413 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.2.207&serviceName=xuecheng-plus-project%40%40orders-service&udpPort=53061&clusters=DEFAULT, body: {}
+2023-02-26 12:04:56,416 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-26 12:04:56,533 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdev402orders-service-dev.yamlxuecheng-plus-projectbe4e386a24fb1066a75b897c9a1d6aeedev402orders-service.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402, tenant=dev402}
+2023-02-26 12:04:56,533 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@797db544]
+2023-02-26 12:04:56,533 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=orders-servicexuecheng-plus-projectdev402orders-service-dev.yamlxuecheng-plus-projectbe4e386a24fb1066a75b897c9a1d6aeedev402orders-service.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402, tenant=dev402}
+2023-02-26 12:04:56,533 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@797db544]
+2023-02-26 12:04:56,547 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-26 12:04:56,552 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-02-26 12:04:56,554 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-02-26 12:04:56,555 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-02-26 12:04:56,547 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-02-26 12:04:56,552 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-02-26 12:04:56,554 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-02-26 12:04:56,555 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-02-26 12:04:56,561 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-02-26 12:04:56,561 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-02-26 12:04:56,612 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-02-26 12:04:56,612 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-02-26 12:04:56,618 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-02-26 12:04:56,619 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-02-26 12:04:56,618 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-02-26 12:04:56,619 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-02-26 12:05:00,001 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-02-26 12:05:00,001 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-02-26 12:05:01,477 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-26 12:05:01,477 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-26 12:05:03,274 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-02-26 12:05:03,274 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-02-26 12:05:03,276 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-02-26 12:05:03,276 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-02-26 12:05:03,280 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-02-26 12:05:03,280 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-02-26 12:05:03,281 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-02-26 12:05:03,281 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-02-26 12:05:03,282 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-02-26 12:05:03,282 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-02-26 12:05:03,287 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-02-26 12:05:03,287 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-02-26 12:05:03,288 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-02-26 12:05:03,288 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-02-26 12:05:03,290 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-02-26 12:05:03,290 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-02-26 12:05:03,293 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-02-26 12:05:03,293 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-02-26 12:05:03,295 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-02-26 12:05:03,295 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop

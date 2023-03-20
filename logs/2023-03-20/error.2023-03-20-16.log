@@ -1,0 +1,2 @@
+2023-03-20 17:19:32,999 ERROR [AMQP Connection 192.168.23.124:5672][CachingConnectionFactory.java:1575] - Channel shutdown: connection error
+2023-03-20 17:19:33,001 ERROR [AMQP Connection 192.168.23.124:5672][CachingConnectionFactory.java:1575] - Channel shutdown: connection error

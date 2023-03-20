@@ -1,6 +1,6 @@
 package com.xuecheng.content.api;
 
-import com.xuecheng.base.execption.ValidationGroups;
+import com.xuecheng.base.exception.ValidationGroups;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 
@@ -12,13 +12,11 @@ import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.service.CourseBaseInfoService;
 import com.xuecheng.content.util.SecurityUtil;
 import io.swagger.annotations.ApiOperation;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author beamshaha
@@ -31,10 +29,15 @@ public class CourseBaseInfoController {
     CourseBaseInfoService courseBaseInfoService;
 
     @ApiOperation("课程接口查询")
+    @PreAuthorize("hasAuthority('xc_teachmanager_course_list')")
     @PostMapping("/course/list")
     public PageResult<CourseBase> list(PageParams params, @RequestBody QueryCourseParamsDto queryCourseParamsDto){
-
-        return courseBaseInfoService.queryCourseBaseList(params,queryCourseParamsDto);
+        SecurityUtil.XcUser user = SecurityUtil.getUser();
+        Long companyId = null;
+        if(StringUtils.isNotEmpty(user.getCompanyId())){
+            companyId = Long.parseLong(user.getCompanyId());
+        }
+        return courseBaseInfoService.queryCourseBaseList(companyId,params,queryCourseParamsDto);
     }
 
     @ApiOperation("新增课程")
@@ -64,4 +67,5 @@ public class CourseBaseInfoController {
         Long companyId = 1232141425L;
         courseBaseInfoService.deleteCourse(companyId,courseId);
     }
+
 }
